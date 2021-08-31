@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+header{
+    background-color: rgb(36, 36, 36);
+
+}
+header img{
+    width: 150px;
+    margin-left: 100px;
+    
+}
+
+header  h1{
+    text-align: center;
+    margin-bottom: 100;
+    color: red;
+    font-size: 40px;
+    margin-top: -50px;
+  
+    
+}
+
+body{
+    background-image: url(https://i.ibb.co/TvjC7Wq/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Fredoka One', cursive;
+}
+
+#myForm{
+    background-color: 
+    rgb(172, 188, 201);
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 1600px;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+input{
+    height: 30px;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 20px;
+
+}
+#cars{
+    height: 30px;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 20px;
+}
+
+label{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+#btn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+
+}
+
+table{
+    background-color: 
+    rgb(172, 188, 201);
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top:-250px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 800px;
+
+  }
