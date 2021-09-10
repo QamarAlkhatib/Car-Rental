@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Car Rental</title>
-</head>
-<body>
-    <header>
-    <img src="https://i.ibb.co/k4HwqPq/vector-logo-for-car-rental.jpg" alt="" ></div>
-         <h1>Rent a Car</h1>
-    </header>
 
-<form action="" id="myForm">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Car Rental</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://i.ibb.co/k4HwqPq/vector-logo-for-car-rental.jpg" alt=""></div>
+    <h1>Rent a Car</h1>
+  </header>
+
+  <form action="" id="myForm">
     <label for="fname">Customer Name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="carModel">Car Model:</label><br>
-   
+    <input type="text" id="fname" name="fname" value="" required><br>
+    <label for="cars">Car Model:</label><br>
     <select id="cars" name="cars">
-      
       <option value="KIA">KIA</option>
       <option value="BMW">BMW</option>
       <option value="FORD">FORD</option>
     </select>
-    
-    </select>
     <input id="btn" type="submit" value="Submit">
-  </form> 
+  </form>
 
   <table id="table">
-  <tr>
-    <th id="img">Order Image</th>
-    <th id="det">Order Details</th>
-  </tr>
-</table>
-    <footer>
-<script src="app.js"></script>
-</footer>
+    <tr id= "elements">
+      <th id="ordimg">Order image</th>
+      <th id="descr">Order Details</th>
+    </tr>
+
+  </table>
+
+  <footer>
+    &copy; Entrance 301 Exam
+    <script src="app.js"></script>
+  </footer>
+  
 </body>
 </html>
